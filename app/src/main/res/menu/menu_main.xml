@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.akbar.zametki.MainActivity">
+    <item android:title="fitStart"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/fitStart"/>
+
+    <item
+        android:title="fitCenter"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/fitCenter"/>
+
+    <item
+        android:title="fitEnd"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/fitEnd"/>
+
+    <item
+        android:title="center"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/center"/>
+
+    <item android:title="centerCrop"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/centerCrop"/>
+
+    <item
+        android:title="centerInside"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/centerInside"/>
+
+</menu>
